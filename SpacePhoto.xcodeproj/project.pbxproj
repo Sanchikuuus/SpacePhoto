@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC635F5C22F758C000475D80 /* PhotoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC635F5B22F758C000475D80 /* PhotoInfo.swift */; };
+		BC635F5E22F758F900475D80 /* URL+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC635F5D22F758F900475D80 /* URL+Helpers.swift */; };
+		BC635F6022F75AC100475D80 /* PhotoInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC635F5F22F75AC100475D80 /* PhotoInfoController.swift */; };
 		BC91C11B22F754F3005B5866 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC91C11A22F754F3005B5866 /* AppDelegate.swift */; };
 		BC91C11D22F754F3005B5866 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC91C11C22F754F3005B5866 /* ViewController.swift */; };
 		BC91C12022F754F3005B5866 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC91C11E22F754F3005B5866 /* Main.storyboard */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC635F5B22F758C000475D80 /* PhotoInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInfo.swift; sourceTree = "<group>"; };
+		BC635F5D22F758F900475D80 /* URL+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Helpers.swift"; sourceTree = "<group>"; };
+		BC635F5F22F75AC100475D80 /* PhotoInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInfoController.swift; sourceTree = "<group>"; };
 		BC91C11722F754F3005B5866 /* SpacePhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpacePhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC91C11A22F754F3005B5866 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC91C11C22F754F3005B5866 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +65,9 @@
 				BC91C11A22F754F3005B5866 /* AppDelegate.swift */,
 				BC91C11C22F754F3005B5866 /* ViewController.swift */,
 				BC91C11E22F754F3005B5866 /* Main.storyboard */,
+				BC635F5B22F758C000475D80 /* PhotoInfo.swift */,
+				BC635F5D22F758F900475D80 /* URL+Helpers.swift */,
+				BC635F5F22F75AC100475D80 /* PhotoInfoController.swift */,
 				BC91C12422F754F5005B5866 /* Assets.xcassets */,
 				BC91C12622F754F5005B5866 /* LaunchScreen.storyboard */,
 				BC91C12922F754F5005B5866 /* Info.plist */,
@@ -138,6 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC635F5C22F758C000475D80 /* PhotoInfo.swift in Sources */,
+				BC635F5E22F758F900475D80 /* URL+Helpers.swift in Sources */,
+				BC635F6022F75AC100475D80 /* PhotoInfoController.swift in Sources */,
 				BC91C12322F754F3005B5866 /* SpacePhoto.xcdatamodeld in Sources */,
 				BC91C11D22F754F3005B5866 /* ViewController.swift in Sources */,
 				BC91C11B22F754F3005B5866 /* AppDelegate.swift in Sources */,
